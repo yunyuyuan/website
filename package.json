@@ -1,0 +1,19 @@
+{
+  "name": "yunyuyuan-home",
+  "version": "1.0.0",
+  "description": "yunyuyuan的主页",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunyuyuan/website.git"
+  },
+  "author": "yunyuyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yunyuyuan/website/issues"
+  },
+  "homepage": "https://github.com/yunyuyuan/website#readme"
+}
