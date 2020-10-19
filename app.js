@@ -1,5 +1,6 @@
 const http = require('http');
 const port = process.env.PORT || 3000
+var os = require('os')
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
@@ -8,5 +9,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port,() => {
-  console.log(`Server running at port `+port);
+  console.log(`computer operator: `+os.type());
 });
